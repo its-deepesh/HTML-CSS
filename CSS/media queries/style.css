@@ -1,0 +1,37 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: 2px solid black;
+    gap: 10px;
+}
+
+.mini{
+    display: flex;
+    position: relative;
+    min-height: 100px;
+    border: 2px solid green;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    background-color: aquamarine;
+}
+
+.card{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color:bisque;
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 

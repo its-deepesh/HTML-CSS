@@ -1,0 +1,19 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    border: 2px solid black;
+    gap: 10px;
+}
+
+.mini{
+    display: flex;
+    min-height: 100px;
+    border: 2px solid green;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+}
+
+#box1{
+    grid-column: 1/3;
+}

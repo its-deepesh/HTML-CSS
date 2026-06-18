@@ -1,0 +1,32 @@
+.parent {
+    width: 70vw;
+    display: flex;
+    border: 2px solid black;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child {
+    position: relative;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px 20px;
+    flex: 1;
+    min-width: 200px;
+    border-radius: 10px;
+    background-color: azure;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+}

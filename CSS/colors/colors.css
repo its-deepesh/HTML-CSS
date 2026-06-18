@@ -1,0 +1,21 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px;
+}
+
+#id1 {
+    background-color: red;
+}
+
+#id2 {
+    background-color: #008000;
+}
+
+#id3 {
+    background-color: rgb(0, 0, 255);
+}
+
+#id4 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
